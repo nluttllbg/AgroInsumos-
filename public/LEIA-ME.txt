@@ -1,0 +1,27 @@
+COMO INSERIR SUAS FOTOS PRÓPRIAS NA AGRO BRASIL INSUMOS AGRÍCOLAS LTDA:
+========================================================================
+
+1. Copie seus arquivos de imagem para esta pasta (/public/):
+   Exemplos:
+   - /public/fachada.jpg (Foto da fachada na Perimetral Sudeste)
+   - /public/recepcao.jpg (Foto da recepção com logotipo 3D)
+   - /public/estoque.jpg (Foto do armazém de insumos)
+   - /public/campo.jpg (Foto do acompanhamento técnico na lavoura)
+
+2. Nos arquivos dos componentes:
+   - Em src/components/Hero.tsx:
+     Altere:
+       <PhotoPlaceholder category="fachada" ... />
+     Para:
+       <PhotoPlaceholder src="/fachada.jpg" category="fachada" ... />
+
+   - Em src/components/About.tsx:
+     Altere os blocos de fotos para:
+       <PhotoPlaceholder src="/recepcao.jpg" ... />
+       <PhotoPlaceholder src="/estoque.jpg" ... />
+       <PhotoPlaceholder src="/campo.jpg" ... />
+
+3. TESTE RÁPIDO NO NAVEGADOR:
+   Você também pode simplesmente clicar no botão "Subir minha foto aqui" 
+   diretamente em qualquer um dos blocos na página aberta para pré-visualizar
+   as fotos salvas no seu computador ou celular sem precisar mexer em código!

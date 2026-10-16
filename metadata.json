@@ -1,0 +1,6 @@
+{
+  "name": "Agro Brasil Insumos Agrícolas Ltda - Sorriso MT",
+  "description": "Site institucional e canal direto WhatsApp da Agro Brasil Insumos Agrícolas Ltda, atacadista de insumos agrícolas em Sorriso-MT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
